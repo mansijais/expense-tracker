@@ -1,16 +1,137 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This project is a full-stack Expense Tracker application built as part of Exercise 2: Mini Expense Tracker. Users can add, edit, delete, and filter expenses by category and date range. The application also provides spending summaries and category-wise visualization through charts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+Frontend: 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Backend: 
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend:
+
+* React
+* Material UI
+* Recharts
+* Axios
+
+Backend:
+
+* Node.js
+* Express.js
+
+Database:
+
+*  JSON 
+
+## Features
+
+* Add expenses
+* Edit expenses
+* Delete expenses
+* Category filtering
+* Date range filtering
+* Expense summaries
+* Expense charts
+* Currency formatting
+* Form validation
+
+## How To Run Locally
+
+### Backend
+
+```bash
+cd server
+npm install
+npm start
+```
+
+### Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+## API Documentation
+
+### Get Expenses
+
+GET /expenses
+
+Response:
+
+```json
+[
+  {
+    "id": 1,
+    "amount": 500,
+    "category": "Food",
+    "date": "2025-06-01",
+    "note": "Lunch"
+  }
+]
+```
+
+### Create Expense
+
+POST /expenses
+
+Request:
+
+```json
+{
+  "amount": 500,
+  "category": "Food",
+  "date": "2025-06-01",
+  "note": "Lunch"
+}
+```
+
+### Update Expense
+
+PUT /expenses/:id
+
+### Delete Expense
+
+DELETE /expenses/:id
+
+### Summary
+
+GET /expenses/summary
+
+Response:
+
+```json
+{
+  "totalSpent": 5000,
+  "highestExpense": 1500,
+  "totalEntries": 10,
+  "categoryTotals": {
+    "Food": 2500,
+    "Transport": 1500,
+    "Other": 1000
+  }
+}
+```
+
+## Project Structure
+
+```text
+client/
+server/
+README.md
+```
+
+## Next Steps
+
+* Budget per category
+* Advanced analytics
+* User authentication
+* Recurring expenses
+* CSV export enhancements
