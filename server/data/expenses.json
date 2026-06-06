@@ -1,0 +1,50 @@
+[
+  {
+    "id": "5ed87709-c8d6-4b59-a97b-cf904a016505",
+    "amount": 5000,
+    "category": "Food",
+    "date": "2026-04-02",
+    "note": "Lunch",
+    "createdAt": "2026-06-06T07:34:16.661Z"
+  },
+  {
+    "id": "1381ce3a-b30a-4f47-939e-9c25e295f253",
+    "amount": 6000,
+    "category": "Transport",
+    "date": "2026-04-01",
+    "note": "train",
+    "createdAt": "2026-06-06T07:35:42.984Z"
+  },
+  {
+    "id": "03ae02e9-628f-4225-881d-96fe13170f29",
+    "amount": 700,
+    "category": "Other",
+    "date": "2026-04-03",
+    "note": "mix",
+    "createdAt": "2026-06-06T07:36:09.008Z"
+  },
+  {
+    "id": "714c8514-dd3b-4251-ac88-b48bb94c097c",
+    "amount": 1000,
+    "category": "Other",
+    "date": "2026-04-03",
+    "note": "mix",
+    "createdAt": "2026-06-06T07:36:36.826Z"
+  },
+  {
+    "id": "121db544-0581-4344-a251-e1234d13064e",
+    "amount": 8000,
+    "category": "Entertainment",
+    "date": "2026-04-05",
+    "note": "swim",
+    "createdAt": "2026-06-06T07:37:25.141Z"
+  },
+  {
+    "id": "ee347e15-6054-4328-b50f-34dbc4c8afe7",
+    "amount": 6000,
+    "category": "Other",
+    "date": "2026-05-31",
+    "note": "Lunch",
+    "createdAt": "2026-06-06T07:49:06.662Z"
+  }
+]

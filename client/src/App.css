@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.page-title {
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.dashboard-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
