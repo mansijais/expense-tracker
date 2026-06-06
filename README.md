@@ -6,9 +6,9 @@ This project is a full-stack Expense Tracker application built as part of Exerci
 
 ## Live Demo
 
-Frontend: 
+Frontend: https://expense-tracker-orpin-nine-50.vercel.app/
 
-Backend: 
+Backend: https://expense-tracker-d0ji.onrender.com
 
 ## Tech Stack
 
